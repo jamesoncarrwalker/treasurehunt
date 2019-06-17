@@ -1,0 +1,61 @@
+
+body{
+    background-color: darkseagreen;
+}
+
+.gameBackground {
+    min-height:80px;
+    width:90%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.gameBackground.dig{
+    background-image: url("icons/sand-bucket.png");
+    background-color: #F9E79F;
+
+}
+
+.gameBackground.fail{
+    background-color: #F1948A;
+    color: white;
+    background-image: url("icons/poison.png");
+    font-weight: 800;
+    background-position: top;
+    background-repeat: repeat-x;
+    background-size: 20%;
+}
+.gameBackground.gold{
+    background-color: #58D68D  ;
+    color: white;
+    background-image: url("icons/treasure.png");
+    font-weight: 800;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tileTitle.fail {
+    color: #F1948A;
+}
+.tileTitle.gold,.titleFooter {
+    color: #58D68D;
+}
+
+.historyRow:hover,.gameTile:hover{
+    cursor: pointer;
+}
+
+.aragorn {
+    min-height: 300px;
+    background-image: url("aragorn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.lostWrapper{
+    font-weight: 800;
+    color: #58D68D;
+}
