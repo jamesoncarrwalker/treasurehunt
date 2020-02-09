@@ -1,4 +1,4 @@
-# treasurehunt 
+# http://jamesmcarr.co.uk/treasurehunt/
 Built May 2019
 
 a fun game, find the treasure as quickly as you can
